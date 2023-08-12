@@ -60,7 +60,7 @@ int main() {
 }
 ```
 
-#### [Github Link](https://github.com/VorakornK/OS_midterm_report/tree/main/OpenMP)
+#### [Github](https://github.com/VorakornK/OS_midterm_report/tree/main/OpenMP)
 
 ## B: Memory Management
 

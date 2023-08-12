@@ -2,8 +2,10 @@
 #include <omp.h>
 
 int main() {
-    int N, num[N];
+    int N;
     scanf("%d", &N);
+
+    int num[N];
 
     for (int i = 0; i < N; i++) {
         scanf("%d", &num[i]);

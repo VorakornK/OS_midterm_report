@@ -28,7 +28,7 @@ int main() {
     printf("%s", seperator);
     printf("Do initialized global variable has lower address than an uninitialized one?\n");
     printf("address of Global_1(uninitialized): %p\n", &Global_1);
-    printf("address of Global_3(initialized): %p\n", &Global_3);
+    printf("address of Global_3(initialized)  : %p\n", &Global_3);
     check = &Global_1 > &Global_3;
     printf(check == 1 ? "True, so initialized global variable has lower address than an uninitialized one!\n" : "False, so initialized global variable has higher address than an uninitialized one! (something went wrong isn't it?)\n");
 

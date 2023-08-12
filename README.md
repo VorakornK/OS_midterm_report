@@ -1,4 +1,4 @@
-#OS Midterm report
+# OS Midterm report
 
 ## A: OpenMP
 

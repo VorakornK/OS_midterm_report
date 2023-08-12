@@ -8,7 +8,7 @@
 
 
 #### Report
-    หลังจากที่ผ่านการเรียน Discrete Math จากอาจารย์ที่ได้ชื่อว่า "ดุดันไม่เกรงใจใคร" 
+    หลังจากที่ผ่านการเรียน Discrete Math 
     ผมก็ได้รู้จักกับ Modular Arithmetic ทำให้เข้าใจ Modulo มากขึ้น 
     ผมจึงตัดสินใจนำมันมาใช้ในการแก้โจทย์นี้ 
     เนื่องจากไม่ว่าจะเป็นเลขอะไรเมื่อนำมา Modulo ด้วย X จะได้เลขที่มีค่าไม่เกิน X-1 ออกมาเสมอ
@@ -113,7 +113,7 @@ int main() {
 ### What I Do
 #### สร้าง VM บน virtualBox โดยใช้ Ubuntu ISO
 ![](images/VM.png)
-#### ทำ Port Forwarding จะได้ไม่ต้องมาหัวเสียกับขนาดจอของ VM (ปรับไม่เป็น)
+#### ทำ Port Forwarding เพื่อให้สามารถ remote เข้ามาได้
 ![](images/PortForward.png)
 #### Old Kernel version
 <img src="images/before_version.png" height="100">

@@ -140,6 +140,10 @@ make -j4 #ตอนสร้าง VM ใส่ไป 4 processors
 sudo make modules_install
 sudo make install
 ```
+
+#### GNUB
+![](images/GRUB.png)
+
 #### รีบูตเครื่อง
 ![](images/reboot.png)
 ```shell

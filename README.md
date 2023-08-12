@@ -8,7 +8,7 @@
 
 
 #### Report
-    หลังจากที่ผ่านการเรียน Discrete Math จากอาจาร์ยที่ได้ชื่อว่า "ดุดันไม่เกรงใจใคร" 
+    หลังจากที่ผ่านการเรียน Discrete Math จากอาจารย์ที่ได้ชื่อว่า "ดุดันไม่เกรงใจใคร" 
     ผมก็ได้รู้จักกับ Modular Arithmetic ทำให้เข้าใจ Modulo มากขึ้น 
     ผมจึงตัดสินใจนำมันมาใช้ในการแก้โจทย์นี้ 
     เนื่องจากไม่ว่าจะเป็นเลขอะไรเมื่อนำมา Modulo ด้วย X จะได้เลขที่มีค่าไม่เกิน X-1 ออกมาเสมอ
@@ -60,7 +60,7 @@ int main() {
 }
 ```
 
-#### [Github Link](https://github.com/VorakornK/OS_midterm_report/blob/main/averagepx.c)
+#### [Github Link](https://github.com/VorakornK/OS_midterm_report/tree/main/OpenMP)
 
 ## B: Memory Management
 
@@ -92,7 +92,7 @@ int main() {
 *ใช้ในการวาด Diagram เท่านั้น*
 
 
-#### [Github Link](https://github.com/VorakornK/OS_midterm_report/blob/main/memma.c)
+#### [Github](https://github.com/VorakornK/OS_midterm_report/tree/main/MemoryManagement)
 
 ## C: Linux Kernel
 
@@ -117,6 +117,7 @@ int main() {
 ![](images/PortForward.png)
 #### Old Kernel version
 <img src="images/before_version.png" height="100">
+
 ```shell
 uname -r
 ```
@@ -198,4 +199,6 @@ time python3 -u timing.py
     real 0m0.016s คือเวลาที่ใช้จริง
     user 0m0.005s คือเวลาที่ใช้ในการทำงานของโปรแกรม
     sys  0m0.008s คือเวลาที่ใช้ในการทำงานของระบบ
+
+#### [Github](https://github.com/VorakornK/OS_midterm_report/tree/main/Timing)
     

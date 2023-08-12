@@ -148,6 +148,7 @@ sudo reboot
 
 #### New Kernel version
 <img src="images/after_version.png" height="100">
+
 ```shell
 uname -r
 ```

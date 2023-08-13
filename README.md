@@ -10,15 +10,18 @@
 #### Report
     หลังจากที่ผ่านวิชา Discrete Math 
     ผมก็ได้รู้จักกับ Modular Arithmetic ทำให้มีความเข้าใจ Modulo มากขึ้น 
-    จึงได้ตัดสินใจนำมันมาใช้ในการแก้แบ่งเธรดหาผลรวมเลข
-    จากสมบัติที่ว่า a mod X จะได้ค่าที่อยู่ในช่วง 0 - X-1 สำหรับจำนวนเต็มใดๆ
-    และ a + X mod X = a Mod X สำหรับ จำนวนเต็ม a ใดๆ
+    จึงได้ตัดสินใจนำมันมาใช้ในการแบ่งเธรดหาผลรวมเลข
+    จากสมบัติที่ว่า a mod X จะได้ค่าที่อยู่ในช่วง 0 ถึง X-1 สำหรับจำนวนเต็ม a ใดๆ
+    และ a + nX mod X = a Mod X สำหรับจำนวนเต็ม a และ n ใดๆ
     จากสองข้อนี้สามารถนำมาใช้แบ่งงานให้เธรดได้
     โดยนำจำนวนของเธรดมาใช้เป็น Modulus value
-    จากนั้นสร้างอาร์เรย์ local_sums[num_threads] ขึ้นมาเพื่อเก็บผลรวมของแต่ละเธรดโดยใช้ไอดีของเธรดเป็นอินเด็กซ์ในอาร์เรย์
+    จากนั้นสร้างอาร์เรย์ local_sums[num_threads] ขึ้นมาเก็บผลรวมของแต่ละเธรดโดยใช้ไอดีของเธรดเป็นอินเด็กซ์ในอาร์เรย์
     ทำการวนลูปเพื่อหาผลรวมของแต่ละเธรดโดยใช้ไอดีของเธรดเป็นอินเด็กซ์เริ่มต้นและจะเพิ่มค่าขึ้นตามจำนวนเธรด
     เมื่อสิ้นสุดการวนลูปก็จะหาผลรวมจากค่าที่ได้ของแต่ละเธรดที่อยู่ในอาร์เรย์ 
     แล้วค่อยนำมาหารด้วย N เพื่อหาค่าเฉลี่ย
+
+#### Diagram
+![](images/Openmp.jpeg)
 
 
 #### Code
@@ -61,8 +64,6 @@ int main() {
 }
 ```
 
-#### [Github](https://github.com/VorakornK/OS_midterm_report/tree/main/OpenMP)
-
 ## B: Memory Management
 
 #### Requirement
@@ -76,7 +77,7 @@ int main() {
 
 #### Output
 ![](images/memma.png)
-##### Stackoverflow
+#### Stackoverflow
 ![](images/memma2.png)    
 
 #### Report
@@ -92,8 +93,6 @@ int main() {
 ![](images/memma_diagram.jpeg)
 *ตัดส่วนที่เป็นการแสดงผลออก เพื่อใช้ในการวาด Diagram เท่านั้น*
 
-
-#### [Github](https://github.com/VorakornK/OS_midterm_report/tree/main/MemoryManagement)
 
 ## C: Linux Kernel
 
@@ -204,6 +203,4 @@ time python3 -u timing.py
     real 0m0.016s คือเวลาที่ใช้จริง
     user 0m0.005s คือเวลาที่ใช้ในการทำงานของ user space
     sys  0m0.008s คือเวลาที่ใช้ในการทำงานของ kernel space
-
-#### [Github](https://github.com/VorakornK/OS_midterm_report/tree/main/Timing)
     

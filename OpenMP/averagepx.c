@@ -15,6 +15,10 @@ int main() {
     int num_threads = omp_get_max_threads();
     int local_sums[num_threads];
 
+    for (int i = 0; i < num_threads; i++) {
+        local_sums[i] = 0;
+    }
+
     #pragma omp parallel
     {
         int thread_id = omp_get_thread_num();
